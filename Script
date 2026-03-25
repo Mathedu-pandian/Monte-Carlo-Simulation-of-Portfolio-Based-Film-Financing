@@ -73,4 +73,7 @@ plt.xlabel("Return Multiple")
 plt.ylabel("Frequency")
 plt.title("Monte Carlo Simulation: Film Investment Strategies")
 plt.legend()
+
+plt.savefig("results.png", dpi=300)
+
 plt.show()
